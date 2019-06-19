@@ -6,8 +6,8 @@ function takeANumber(line, name){
 var ticket = 0;
 
 function takeANumber(line) {
-  //line.push(ticket);
   ticket += 1;
+  line.push(ticket);
   return `Welcome, you have ticket # ${ticket}.`;
 }
 
