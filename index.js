@@ -3,6 +3,10 @@ function takeANumber(line, name){
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
+
+//someone enters, they take a number
+
+
 var ticket = 0;
 
 function takeANumber(line) {
